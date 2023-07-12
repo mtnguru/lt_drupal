@@ -1,0 +1,69 @@
+/**
+ * @file
+ * Claro styles for Tables.
+ */
+
+table {
+  border: 2px solid #ffffff1a;
+}
+
+th {
+  color: #cccccc;
+  background: #ffffff1a;
+}
+
+td {
+  background: #242424;
+}
+
+.sortable-heading > a {
+  color: inherit;
+}
+.sortable-heading > a::after {
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8'%3e%3cpath d='M1.75.25v1.5h10.5V.25zm0 3v1.5h7.5v-1.5zm0 3v1.5h4.5v-1.5z' fill='%23cccccc'/%3e%3c/svg%3e") no-repeat 50% 50%;
+}
+
+[dir="rtl"] .sortable-heading > a::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8'%3e%3cpath d='M12.25.25v1.5H1.75V.25zm0 3v1.5h-7.5v-1.5zm0 3v1.5h-4.5v-1.5z' fill='%23cccccc'/%3e%3c/svg%3e");
+}
+
+.sortable-heading.is-active > a {
+  color: #0c7d9d;
+}
+
+.sortable-heading.is-active > a::before {
+  border-bottom-color: #0c7d9d;
+}
+
+tr {
+  border-bottom-color: #cccccc;
+}
+
+tr,
+.draggable-table.tabledrag-disabled tr {
+  color: #cccccc;
+  background: #242424;
+}
+
+tr:hover,
+tr:focus {
+  color: #cccccc;
+  background: #232429;
+}
+
+tr.color-warning:hover,
+tr.color-warning:focus {
+  background: #232429;
+  color: #fdf8ed;
+}
+
+tr.color-error:hover,
+tr.color-error:focus {
+  background: #232429;
+  color: #fcf4f2;
+}
+
+.views-table tr td.is-active,
+.views-table tr:hover td {
+  background: #ffffff1a;
+}

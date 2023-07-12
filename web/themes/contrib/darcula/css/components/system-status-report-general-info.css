@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Darcula styles for the System Status general info.
+ */
+
+.system-status-general-info__header {
+  border-top: 1px solid #ccc;
+}
+
+.system-status-general-info__item-icon:before {
+  background-color: #ffd23f;
+}

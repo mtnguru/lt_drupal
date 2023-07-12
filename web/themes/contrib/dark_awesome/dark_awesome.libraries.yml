@@ -1,0 +1,15 @@
+global-styling:
+  version: 1.x
+  js:
+    js/slider.js: {}
+    js/dark_awesome.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings  
+  css:
+    theme:
+      css/style.css: {}
+      css/responsive.css: {}
+      css/font-awesome.min.css: {}
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css: { type: external }

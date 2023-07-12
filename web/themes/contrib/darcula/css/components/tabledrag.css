@@ -1,0 +1,6 @@
+/**
+ * Table drag.
+ */
+.tabledrag-handle::after {
+  filter: invert(100%);
+}

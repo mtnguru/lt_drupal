@@ -1,0 +1,7 @@
+/*
+** Admin modules list
+*/
+
+.system-modules .package-listing .module-list__module-name {
+  color: #ccc;
+}

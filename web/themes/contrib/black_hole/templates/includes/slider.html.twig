@@ -1,0 +1,59 @@
+<div id="slider">
+<ul class="slides">
+{% if show_slide1 %}
+  <li>
+    <div class="post slide1">
+    <div class="entry-container">
+      <div class="entry-header"><div class="entry-title"><a href="{{ path('<front>') }}{{ slide1_url }}">{{ slide1_head }}</a></div></div>
+      <div class="entry-summary">{{ slide1_desc }}</div>      
+    </div>
+    <a href="{{ slide1_url }}"><img src="{{ slide1_image_url }}" class="pure-img slide-image" alt="{{ slide1_alt }}"></a>
+    </div>
+  </li>
+{% endif %}
+{% if show_slide2 %}
+  <li>
+    <div class="post slide2">
+    <div class="entry-container">
+      <div class="entry-header"><div class="entry-title"><a href="{{ path('<front>') }}{{ slide2_url }}">{{ slide2_head }}</a></div></div>
+      <div class="entry-summary">{{ slide2_desc }}</div>
+    </div>
+    <a href="{{ slide2_url }}"><img src="{{ slide2_image_url }}" class="pure-img slide-image" alt="{{ slide2_alt }}"></a>
+    </div>
+  </li>
+{% endif %}
+{% if show_slide3 %}
+  <li>
+    <div class="post slide3">
+    <div class="entry-container">
+      <div class="entry-header"><div class="entry-title"><a href="{{ path('<front>') }}{{ slide3_url }}">{{ slide3_head }}</a></div></div>
+      <div class="entry-summary">{{ slide3_desc }}</div>
+    </div>
+    <a href="{{ slide3_url }}"><img src="{{ slide3_image_url }}" class="pure-img slide-image" alt="{{ slide3_alt }}"></a>
+    </div>
+  </li>
+{% endif %}
+{% if show_slide4 %}
+  <li>
+    <div class="post slide4">
+    <div class="entry-container">
+      <div class="entry-header"><div class="entry-title"><a href="{{ path('<front>') }}{{ slide4_url }}">{{ slide4_head }}</a></div></div>
+      <div class="entry-summary">{{ slide4_desc }}</div>
+    </div>
+    <a href="{{ slide4_url }}"><img src="{{ slide4_image_url }}" class="pure-img slide-image" alt="{{ slide4_alt }}"></a>
+    </div>
+  </li>
+{% endif %}
+{% if show_slide5 %}
+  <li>
+    <div class="post slide5">
+    <div class="entry-container">
+      <div class="entry-header"><div class="entry-title"><a href="{{ path('<front>') }}{{ slide5_url }}">{{ slide5_head }}</a></div></div>
+      <div class="entry-summary">{{ slide5_desc }}</div>
+    </div>
+    <a href="{{ slide5_url }}"><img src="{{ slide5_image_url }}" class="pure-img slide-image" alt="{{ slide5_alt }}"></a>
+    </div>
+  </li>
+{% endif %}
+</ul>
+</div>

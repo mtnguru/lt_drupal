@@ -1,0 +1,47 @@
+/**
+ * @file
+ * Text and textarea input elements.
+ */
+
+.form-element {
+  color: #cccccc;
+  background-color: #ffffff1a;
+}
+
+.form-element:active {
+  border-color: #204182cc;
+}
+
+.form-element:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #cc6e2f;
+}
+
+.form-element:hover:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #cc6e2f, inset 0 0 0 1px #232429;
+}
+
+.form-element.error:hover:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #cc6e2f;
+}
+
+/* For disabled form elements, make it look like plain text. */
+
+.form-element[disabled] {
+  color: #cccccc;
+  border: none;
+  background-color: transparent;
+  /* https://stackoverflow.com/q/262158#answer-23511280 */
+  -webkit-text-fill-color: #cccccc;
+  padding-left: 0;
+  font-style: italic;
+}
+
+.form-element[disabled]:placeholder-shown {
+  text-decoration: line-through;
+}
+
+.form-element--type-date,
+.form-element--type-time {
+  filter: invert(1);
+  color: #232429;
+}

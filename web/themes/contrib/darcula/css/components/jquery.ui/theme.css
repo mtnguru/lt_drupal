@@ -1,0 +1,95 @@
+/**
+ * @file
+ * Darcula styles for jQuery UI.
+ * Overrides /core/assets/vendor/jquery.ui/themes/base/theme.css.
+ */
+
+.ui-state-active,
+.ui-widget-content .ui-state-active {
+  color: #ffd23f;
+}
+
+.ui-state-error,
+.ui-widget-content .ui-state-error {
+  color: #cc6e2f;
+  border-color: #cccccc;
+  background: #ffffff0b;
+}
+
+.ui-accordion .ui-accordion-header {
+  border: solid 1px #cccccc;
+}
+
+.ui-accordion .ui-accordion-content {
+  border: solid 1px #cccccc;
+}
+
+.ui-tabs .ui-tabs-nav {
+  border-bottom: solid 1px #cccccc;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+  color: #ffd23f;
+  background: #ffffff0b;
+}
+
+.ui-widget-overlay {
+  background: #ffffff0b;
+}
+
+.ui-slider {
+  border: solid 1px #cccccc;
+}
+
+.ui-slider .ui-slider-range {
+  background: #ffffff0b;
+}
+
+.ui-slider .ui-slider-handle {
+  border: 1px solid #cccccc;
+  border-right-color: #d2d2d2;
+  border-bottom: 1px solid #cccccc;
+  border-left-color: #d2d2d2;
+  background-color: #ffffff0b;
+}
+
+.ui-slider a.ui-state-active,
+.ui-slider .ui-slider-handle:active {
+  color: #ffd23f;
+  border: solid 1px #555;
+  background: #ffffff0b;
+}
+
+.ui-progressbar {
+  background: #ffffff0b;
+}
+
+.ui-progressbar .ui-progressbar-value {
+  background: #ffffff0b url(../../../../misc/progress.gif);
+}
+
+/**
+ * Autocomplete
+ */
+
+.ui-autocomplete {
+  color: #ffd23f;
+  border: 1px solid rgba(216, 217, 224, 0.8);
+  background: #ffffff0b;
+  box-shadow: 0 0.125rem 0.25rem rgba(34, 35, 48, 0.1);
+}
+
+.ui-autocomplete .ui-menu-item-wrapper.ui-state-active {
+  color: #ffd23f;
+  background: #ffffff0b;
+}
+
+.ui-autocomplete .ui-menu-item.ui-state-focus,
+.autocomplete .ui-menu-item.ui-state-hover {
+  background: #ffffff0b;
+}
+
+.ui-autocomplete .ui-state-focus a,
+.autocomplete .ui-state-hover a {
+  color: #ffd23f;
+}

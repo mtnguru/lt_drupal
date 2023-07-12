@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Table sort indicator.
+ */
+
+td.is-active {
+  background-color: #204182cc;
+  color: #cccccc;
+}

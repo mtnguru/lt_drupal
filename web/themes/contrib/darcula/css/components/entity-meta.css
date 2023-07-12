@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Entity meta.
+ */
+.entity-meta__header {
+  color: #ccc;
+  border: 1px solid #dedfe4;
+  background-color: #303030;
+}
+
+.entity-meta__title {
+  text-shadow: 0 1px 0 #ccc;
+}

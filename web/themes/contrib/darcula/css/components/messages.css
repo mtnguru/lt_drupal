@@ -1,0 +1,32 @@
+/**
+ * Messages.
+ *
+ * @todo revisit this after https: //www.drupal.org/project/drupal/issues/3078400
+ */
+.messages {
+  color: #ccc;
+  border-style: solid;
+  border-color: #ffffff1a;
+  background-color: #ffffff1a;
+}
+
+.messages--error {
+  border-color: #cc6e2f;
+}
+
+.messages--status {
+  border-color: #42a877;
+}
+
+.messages--warning {
+  border-color: #e0ac00;
+}
+
+.messages a {
+  text-decoration: underline;
+  color: #ffd23f;
+}
+
+.messages a:hover {
+  color: #ccc;
+}

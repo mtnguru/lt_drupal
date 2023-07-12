@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Visual styles for views exposed form.
+ */
+
+.views-exposed-form.views-exposed-form {
+  border-color: #ffffff0b;
+  background-color: #ffffff1a;
+}

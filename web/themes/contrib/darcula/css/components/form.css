@@ -1,0 +1,18 @@
+/**
+ * @file
+ * Main form and form item styles.
+ */
+
+.form-item__label.form-required::after,
+.fieldset__label.form-required::after {
+  color: #cc6e2f;
+}
+
+.form-item__description {
+  color: #cccccc;
+}
+
+.form-item__prefix.is-disabled,
+.form-item__suffix.is-disabled {
+  color: #828388;
+}

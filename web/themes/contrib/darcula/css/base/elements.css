@@ -1,0 +1,36 @@
+/**
+ * Generic elements.
+ */
+body {
+  color: #cccccc;
+  background: #242424;
+  word-break: break-word;
+}
+
+a,
+.link {
+  color: #ffd23f;
+}
+
+a:hover,
+.link:hover {
+  color: #cccccc;
+}
+
+a:active,
+.link:active {
+  color: #ffd23f;
+}
+
+hr {
+  background: #ffffff1a;
+}
+
+blockquote::before {
+  color: #ffd23f;
+}
+
+.page-wrapper *:focus,
+.ui-dialog *:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #cc6e2f;
+}

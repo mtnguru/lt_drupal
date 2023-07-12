@@ -1,0 +1,103 @@
+/**
+ * Tabs.
+ */
+
+.tabs {
+  border-color: #cccccc;
+}
+
+.tabs__tab {
+  background-color: #ffffff0b;
+}
+
+.tabs__tab.is-active {
+  background-color: #ffffff1a;
+  border-bottom-color: #0c7d9d;
+}
+
+.tabs__link {
+  color: #cccccc;
+}
+
+.tabs__link:focus {
+  color: #cc6e2f;
+  border-color: #cc6e2f;
+}
+
+.tabs__link:hover {
+  color: #232429;
+}
+
+.tabs__link.is-active {
+  color: #0c7d9d;
+}
+
+[dir="rtl"] .tabs__link.is-active:focus {
+  border-left-color: #cc6e2f;
+}
+
+.tabs__link.is-active:hover {
+  color: #232429;
+}
+
+.tabs__tab.is-active::before {
+  border-left-color: #0c7d9d; /* LTR */
+}
+
+[dir="rtl"] .tabs__tab.is-active::before {
+  border-right-color: #0c7d9d;
+}
+
+.tabs__trigger {
+  border-left-color: #0c7d9d; /* LTR */
+}
+
+/* Drupal brings an SVG of it's own by default. */
+.tabs__trigger::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230c7d9d' viewBox='0 0 100 80' width='20' height='20'%3E%3Crect width='100' height='20'%3E%3C/rect%3E%3Crect y='30' width='100' height='20'%3E%3C/rect%3E%3Crect y='60' width='100' height='20'%3E%3C/rect%3E%3C/svg%3E");
+  margin-top: 5px;
+}
+
+.tabs__trigger svg {
+  display: none;
+}
+
+[dir="rtl"] .tabs__trigger {
+  border-right-color: #0c7d9d;
+}
+
+.tabs__trigger:focus {
+  border-color: #cc6e2f;
+}
+
+.tabs__trigger:focus::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23    cc6e2f' viewBox='0 0 100 80' width='20' height='20'%3E%3Crect width='100' height='20'%3E%3C/rect%3E%3Crect y='30' width='100' height='20'%3E%3C/rect%3E%3Crect y='60' width='100' height='20'%3E%3C/rect%3E%3C/svg%3E");
+}
+
+@media screen and (min-width: 48em) {
+  .is-horizontal .tabs--secondary::after {
+    border-bottom: 1px solid #d3d4d9;
+  }
+
+  .is-horizontal .tabs__link:focus {
+    color: #0c7d9d;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 5px #cc6e2f;
+  }
+
+  .is-horizontal .tabs--primary .tabs__link:focus {
+    box-shadow: 0 0 0 2px #f3f4f9, 0 0 0 5px #cc6e2f;
+  }
+
+  .is-horizontal .tabs__link:hover {
+    color: #0c7d9d;
+    background: #ffffff1a;
+  }
+
+  .is-horizontal .tabs__link.is-active::before {
+    border-bottom-color: #0c7d9d;
+  }
+}
+
+#block-darcula-secondary-local-tasks .tabs-wrapper .tabs li {
+  white-space: nowrap;
+}

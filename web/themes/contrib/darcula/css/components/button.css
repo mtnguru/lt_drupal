@@ -1,0 +1,57 @@
+/**
+ * @file
+ * Structural styles for Darcula's UI buttons
+ *
+ * Apply these classes to button elements (<button>, <input type="button" />).
+ */
+
+/**
+ * Base button styles.
+ *
+ * These styles have been duplicated to dropbutton.css and action-links.css
+ * since those components inherits most of these design elements. Whenever
+ * making changes to this file, remember to check if that needs to be applied to
+ * dropbutton.css or action-links.css as well.
+ */
+
+.button {
+  color: #303030;
+  background-color: #a0a0a0;
+}
+
+.button:hover {
+  background-color: #c1c2c7;
+}
+
+.button:active {
+  background-color: #adaeb3;
+}
+
+a.button:hover,
+a.button:active {
+  color: #303030;
+}
+
+/**
+ * Primary button styles
+ *
+ * Hover styles not overrided because it matches a good layout in Dark Mode.
+ */
+.button--primary {
+  color: #fff;
+  background-color: #007acc;
+}
+
+/**
+ * Disabled state styles as last.
+ *
+ * Overrides every definitions before, including variants.
+ */
+
+.button:disabled,
+.button.is-disabled,
+.button--primary:disabled,
+.button--primary.is-disabled {
+  color: #919297;
+  background-color: #ffffff10;
+}

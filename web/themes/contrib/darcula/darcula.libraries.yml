@@ -1,0 +1,118 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+      css/components/accordion.css: {}
+      css/components/action-link.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/button.css: {}
+      css/components/content-header.css: {}
+      css/components/details.css: {}
+      css/components/divider.css: {}
+      css/components/entity-meta.css: {}
+      css/components/fieldset.css: {}
+      css/components/form.css: {}
+      css/components/form--checkbox-radio.css: {}
+      css/components/form--password-confirm.css: {}
+      css/components/form--select.css: {}
+      css/components/form--text.css: {}
+      css/components/image-preview.css: {}
+      css/components/links.css: {}
+      css/components/menu.css: {}
+      css/components/messages.css: {}
+      css/components/pager.css: {}
+      css/components/skip-link.css: {}
+      css/components/system-status-report.css: {}
+      css/components/table--file-multiple-widget.css: {}
+      css/components/tables.css: {}
+      css/components/tableselect.css: {}
+      css/components/tablesort.css: {}
+      css/components/tablesort-indicator.css: {}
+      css/components/tabs.css: {}
+      css/components/system-status-report-general-info.css: {}
+      css/components/views-ui.css: {}
+  dependencies:
+    - claro/global-styling
+
+darcula.jquery.ui:
+  version: VERSION
+  css:
+    component:
+      css/components/jquery.ui/theme.css: { weight: -1 }
+
+darcula.drupal.dialog:
+  version: VERSION
+  css:
+    theme:
+      css/components/dialog.css: {}
+
+system.admin:
+  version: VERSION
+  css:
+    component:
+      css/components/system-admin--admin-list.css: { weight: -10 }
+      css/components/system-admin--modules.css: { weight: -10 }
+  dependencies:
+    - darcula/card
+
+views:
+  css:
+    component:
+      css/components/views-exposed-form.css: {}
+
+form.password-confirm:
+  css:
+    component:
+      css/components/form--password-confirm.css: {}
+  dependencies:
+    - core/drupal.object.assign
+    - core/drupal
+    - claro/global-styling
+
+vertical-tabs:
+  css:
+    component:
+      css/components/vertical-tabs.css: {}
+  dependencies:
+    - claro/global-styling
+
+system-base-extend:
+  css:
+    component:
+      css/components/tabledrag.css: {}
+
+file:
+  css:
+    component:
+      css/components/file.css: {}
+
+card:
+  css:
+    component:
+      css/components/card.css: {}
+
+media_library.theme:
+  version: VERSION
+  css:
+    theme:
+      css/theme/media-library.css: {}
+  dependencies:
+    - darcula/icon-link
+
+icon-link:
+  css:
+    component:
+      css/components/icon-link.css: {}
+
+drupal.shortcut:
+  css:
+    theme:
+      css/components/shortcut.css: {}
+
+progress:
+  version: VERSION
+  css:
+    component:
+      css/components/progress.css: {}

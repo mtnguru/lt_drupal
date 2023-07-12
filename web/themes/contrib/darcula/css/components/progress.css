@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Visual styles for progress bar.
+ *
+ * @see progress.js
+ */
+
+.progress__track {
+  border: 1px #919297 solid;
+  background-color: #d3d4d9;
+}
+
+.progress__bar {
+  border: 1px #003ecc solid;
+  background-color: #003ecc;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .progress__bar {
+    background-color: windowText;
+  }
+}
+
+@media (forced-colors: active) {
+  .progress__bar {
+    background-color: canvastext;
+  }
+}
+
+.progress__description,
+.progress__percentage {
+  color: #55565b;
+}

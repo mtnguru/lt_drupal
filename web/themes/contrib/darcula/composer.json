@@ -1,0 +1,10 @@
+{
+  "name": "drupal/darcula",
+  "description": "Drupal administration theme with modern minimalist design.",
+  "type": "drupal-theme",
+  "homepage": "https://www.drupal.org/project/darcula",
+  "support": {
+    "issues": "https://www.drupal.org/project/darcula/issues/"
+  },
+  "license": "GPL-2.0+"
+}

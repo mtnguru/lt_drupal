@@ -1,0 +1,31 @@
+.pager__link,
+.pager__item--current {
+  color: #55565b;
+}
+
+.pager__link:hover,
+.pager__link:focus,
+.pager__link:active {
+  text-decoration: none;
+}
+
+.pager__link:hover,
+.pager__link.is-active:hover {
+  color: #55565b;
+  background: #ffd23f;
+}
+
+.pager__link.is-active {
+  color: #55565b;
+  border: 0.125rem solid transparent;
+  background: #ffd23f;
+}
+
+@media (forced-colors: active) {
+  .pager__item--first .pager__link::before,
+  .pager__item--previous .pager__link::before,
+  .pager__item--next .pager__link::after,
+  .pager__item--last .pager__link::after {
+    background-color: #ffd23f;
+  }
+}

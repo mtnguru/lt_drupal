@@ -1,0 +1,186 @@
+/**
+ * Views styling
+ */
+
+.views-ui-dialog .form-item:first-of-type.description {
+  border-bottom: 0.0625rem solid #d3d4d9;
+}
+
+/* @group Attachment details */
+
+#edit-display-settings-title {
+  color: #3371ff;
+}
+
+/* @end */
+
+/* @group Attachment details tabs
+ *
+ * The tabs that switch between sections
+ *
+ * @todo this group contains lots of duplicates from core styles because Claro
+ *   has its custom markup for views tabs. Some of these could be removed after
+ *   https://www.drupal.org/node/3051605 has been solved.
+ */
+
+.views-tabs li,
+.views-tabs li.is-active {
+  background: transparent;
+}
+
+.views-tabs a {
+  border: 1px solid #cbcbcb;
+}
+
+.views-tabs li.is-active a.is-active.error,
+.views-tabs .error {
+  border: 2px solid #ed541d;
+}
+
+.views-tabs li a {
+  background-color: #fff;
+}
+
+.views-tabs li a:hover,
+.views-tabs li.is-active a,
+.views-tabs li.is-active a.is-active {
+  color: #fff;
+  background-color: #555;
+}
+
+.views-tabs .add a {
+  color: #55565b;
+  background-color: transparent;
+}
+
+.views-tabs .add a:hover {
+  color: #0036b1;
+  background-color: #f5f8ff;
+}
+
+.views-tabs .add a:focus {
+  background-color: #e5edff;
+  box-shadow: 0 0 0 3px #26a769;
+}
+
+.views-tabs .add.open a {
+  color: #fff;
+  background-color: #003ecc;
+}
+
+.views-tabs .action-list {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.views-tabs .action-list li {
+  border-color: #cbcbcb;
+  background-color: #fff;
+}
+
+.views-tabs__action-list-button {
+  background: none repeat scroll 0 0 transparent;
+}
+
+.views-tabs__action-list-button.button:hover,
+.views-tabs__action-list-button.button:focus {
+  color: #fff;
+  background-color: #003ecc;
+}
+
+/* @end */
+
+/* @group Rearrange filter criteria */
+
+.views-ui-rearrange-filter-form tr:first-of-type {
+  border-top: 0.0625rem solid #d3d4d9;
+}
+
+.views-ui-rearrange-filter-form tr.drag td {
+  background-color: #fe7 !important;
+}
+
+.views-ui-rearrange-filter-form tr.drag-previous td {
+  background-color: #ffb !important;
+}
+
+/* @end */
+
+/* @group Grouping styles
+ *
+ * For grouping related form elements together, mainly used with exposed
+ * filters.
+ */
+
+.views-config-group-region {
+  border: 0.0625rem solid #d3d4d9;
+}
+
+.views-config-group-region .views-group-box {
+  border: 0.0625rem solid #d3d4d9;
+}
+
+.views-config-group-region .views-group-box--value > .form-item::before {
+  border-left: 0.0625rem solid #d3d4d9;
+}
+
+.views-config-group-region .views-group-box--value > .form-item::after {
+  color: #828388;
+  border: 0.0625rem solid #d3d4d9;
+  background: #fff;
+}
+
+.views-ui-dialog .form-item__label {
+  color: #ccc;
+}
+
+.views-ui-dialog .description {
+  color: #ccc;
+}
+
+.views-ui-dialog .form-type--boolean {
+  color: #ccc;
+}
+
+.views-ui-dialog fieldset {
+  padding: 10px;
+}
+
+.views-ui-dialog .fieldset--group .fieldset__legend--visible~.fieldset__wrapper {
+  border: none;
+}
+
+.view-preview-form .view-preview-form__title,
+.view-preview-form .form-item--live-preview {
+  color: #333;
+}
+
+.views-live-preview .section-title {
+  color: #cbcbcb;
+}
+
+.views-ui-display-tab-bucket .views-display-setting {
+  color: #d3d4d9;
+}
+
+.views-ui-dialog .views-offset-top:not(:empty),
+.views-display-top {
+  background-color: #222222;
+}
+
+.views-tabs li a {
+  background-color: #333333;
+}
+
+.views-ui-edit-display-form table {
+  white-space: nowrap;
+}
+
+.views-display-top,
+.form-edit .form-actions,
+.view-preview-form .view-preview-form__title, .view-preview-form .form-item--live-preview {
+  background-color: #303030;
+}
+
+.view-preview-form .view-preview-form__title, .view-preview-form .form-item--live-preview {
+  color: #ccc;
+}

@@ -1,0 +1,177 @@
+
+name: Darcula
+type: theme
+base theme: claro
+description: 'Darcula theme for Drupal'
+alt text: 'Screenshot of Darcula, Drupal administration theme.'
+core_version_requirement: ^9 | ^10
+libraries:
+  - darcula/global-styling
+libraries-override:
+#   system/base:
+#     css:
+#       component:
+#         css/components/ajax-progress.module.css: css/components/ajax-progress.module.css
+#         css/components/autocomplete-loading.module.css: css/components/autocomplete-loading.module.css
+#         css/components/system-status-counter.css: css/components/system-status-counter.css
+#         css/components/system-status-report-counters.css: css/components/system-status-report-counters.css
+#         css/components/system-status-report-general-info.css: css/components/system-status-report-general-info.css
+
+#   system/admin:
+#     css:
+#       theme:
+#         css/system.admin.css: false
+
+#   core/drupal.dialog.off_canvas:
+#     css:
+#       base:
+#         misc/dialog/off-canvas.theme.css: css/base/off-canvas.theme.css
+
+  core/drupal.dropbutton:
+    css:
+      component:
+        misc/dropbutton/dropbutton.css: css/components/dropbutton.css
+
+#   core/drupal.vertical-tabs:
+#     css:
+#       component:
+#         misc/vertical-tabs.css: false
+
+#   core/drupal.autocomplete:
+#     css:
+#       theme:
+#         assets/vendor/jquery.ui/themes/base/theme.css: false
+
+#   core/drupal.tabbingmanager:
+#     css:
+#       theme:
+#         assets/vendor/jquery.ui/themes/base/theme.css: false
+
+#   core/drupal.dialog:
+#     css:
+#       component:
+#         assets/vendor/jquery.ui/themes/base/dialog.css: false
+#       theme:
+#         assets/vendor/jquery.ui/themes/base/theme.css: false
+
+#   user/drupal.user:
+#     css:
+#       component:
+#         css/user.module.css: false
+
+#   field_ui/drupal.field_ui:
+#     css:
+#       theme:
+#         css/field_ui.admin.css: css/theme/field-ui.admin.css
+
+#   node/drupal.node:
+#     css:
+#       layout:
+#         css/node.module.css: false
+
+#   node/form:
+#     css:
+#       layout:
+#         css/node.module.css: false
+
+#   toolbar/toolbar:
+#     css:
+#       component:
+#         css/toolbar.module.css: css/components/toolbar.module.css
+#       theme:
+#         css/toolbar.theme.css: css/theme/toolbar.theme.css
+#         css/toolbar.icons.theme.css: css/theme/toolbar.icons.theme.css
+
+#   toolbar/toolbar.menu:
+#     css:
+#       state:
+#         css/toolbar.menu.css: css/state/toolbar.menu.css
+
+#   views_ui/admin.styling:
+#     css:
+#       component:
+#           css/views_ui.admin.css: css/components/views_ui.admin.css
+#       theme:
+#         css/views_ui.admin.theme.css: css/theme/views_ui.admin.theme.css
+
+libraries-extend:
+  system/base:
+    - darcula/system-base-extend
+#   ckeditor/drupal.ckeditor:
+#     - claro/ckeditor-editor
+#   ckeditor/drupal.ckeditor.admin:
+#     - claro/ckeditor-admin
+#   core/ckeditor:
+#     - claro/ckeditor-dialog
+#   core/drupal.collapse:
+#     - claro/details-focus
+  core/drupal.dialog:
+    - darcula/darcula.drupal.dialog
+    - darcula/darcula.jquery.ui
+#   core/drupal.checkbox:
+#     - claro/checkbox
+#   core/drupal.message:
+#     - claro/messages
+  core/drupal.progress:
+    - darcula/progress
+#   core/drupal.tabbingmanager:
+#     - claro/claro.jquery.ui
+#   core/drupal.tabledrag:
+#     - claro/claro.tabledrag
+  core/drupal.vertical-tabs:
+    - darcula/vertical-tabs
+  file/drupal.file:
+    - darcula/file
+#   filter/drupal.filter.admin:
+#     - claro/filter
+#   filter/drupal.filter:
+#     - claro/filter
+  system/admin:
+    - darcula/system.admin
+#   core/drupal.autocomplete:
+#     - claro/autocomplete
+#     - claro/claro.jquery.ui
+#   tour/tour-styling:
+#     - claro/tour-styling
+  shortcut/drupal.shortcut:
+    - darcula/drupal.shortcut
+#   core/drupal.ajax:
+#     - claro/ajax
+  user/drupal.user:
+    - darcula/form.password-confirm
+  views/views.module:
+    - darcula/views
+#   media/media_embed_ckeditor_theme:
+#     - claro/classy.media_embed_ckeditor_theme
+#   media_library/ui:
+#     - claro/media_library.ui
+#   media_library/view:
+#     - claro/media_library.theme
+#   media_library/widget:
+#     - claro/media_library.theme
+
+quickedit_stylesheets:
+  - css/components/quickedit.css
+# ckeditor_stylesheets:
+#   - css/base/elements.css
+#   - css/base/typography.css
+#   - css/theme/ckeditor-frame.css
+#   - css/classy/components/media-embed-error.css
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
+# Information added by Drupal.org packaging script on 2023-04-22
+version: '1.0.0'
+project: 'darcula'
+datestamp: 1682128875

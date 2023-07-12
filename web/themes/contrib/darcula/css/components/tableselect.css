@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Table select â€” replaces implementation of Classy theme.
+ *
+ * @see tableselect.js
+ */
+tr.selected td {
+  background-color: #ffffff1a;
+}

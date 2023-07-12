@@ -1,0 +1,4 @@
+name: Ticket
+type: module
+description: 'Create and manage activites, messages and tickets'
+core_version_requirement: '^8 || ^9 || ^10'

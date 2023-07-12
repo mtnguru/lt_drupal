@@ -1,0 +1,78 @@
+/**
+ * @file
+ * Presentational styles for Drupal dialogs.
+ */
+
+.ui-dialog {
+  background: transparent;
+  box-shadow: 0 0 1rem -0.25rem #232429;
+}
+
+.ui-dialog:focus {
+  outline: 2px dotted transparent;
+  box-shadow: 0 0 0 3px #26a769;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  color: #cccccc;
+  background: #303030;
+}
+
+.add.dropbutton__item.dropbutton-action a {
+  color: #fff;
+  background-color: #007acc;
+}
+
+.add.dropbutton__item.dropbutton-action a:hover {
+  color: #303030;
+  background-color: #c1c2c7;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+  border: 2px solid transparent;
+  background: none;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+  border-color: #fff;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:focus {
+  border-color: #26a769;
+  outline: 2px dotted transparent;
+}
+
+.ui-dialog > .ui-dialog-content {
+  color: #ccc;
+  background: #242424;
+}
+
+.ui-dialog > .ui-dialog-buttonpane {
+  color: #232429;
+  background: #303030;
+}
+
+/**
+ * Off-canvas styles.
+ */
+
+.ui-dialog.ui-dialog-off-canvas .ui-widget-content.ui-dialog-content {
+  background: none;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .ui-dialog .ui-icon.ui-icon-closethick {
+    background: none;
+  }
+
+  .ui-dialog .ui-icon.ui-icon-closethick::before {
+    border-bottom: 2px white solid;
+  }
+  .ui-dialog .ui-icon.ui-icon-closethick::after {
+    border-top: 2px white solid;
+  }
+}
+
+#drupal-off-canvas .form-item .form-item__description {
+  color: #f3f4f9;
+}

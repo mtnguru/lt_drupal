@@ -1,0 +1,27 @@
+/**
+ * @file
+ * Styles for action links.
+ *
+ * Contains Action link component and the action-links layout styles.
+ */
+
+.action-link {
+  color: #303030;
+  background-color: #a0a0a0;
+}
+
+/* Action link states */
+
+.action-link:hover {
+  color: #303030;
+  background-color: #c1c2c7;
+}
+
+.action-link:active {
+  color: #303030;
+  background-color: #adaeb3;
+}
+
+#system-themes-page .action-link {
+  margin: 0 5px 8px;
+}

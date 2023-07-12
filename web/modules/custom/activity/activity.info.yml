@@ -1,0 +1,4 @@
+name: Activity
+type: module
+description: 'Activity Entity Module'
+core_version_requirement: '^8 || ^9 || ^10'

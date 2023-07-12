@@ -1,0 +1,48 @@
+
+.header-nav-overlay {
+  opacity: 0.5;
+}
+
+#header-nav {
+  background-color: var(--color--primary-30);
+  border-color: var(--color--primary-30);
+}
+
+.mobile-buttons {
+  margin-block-start: var(--sp2);
+}
+
+.site-heading {
+  min-height: auto;
+}
+.site-branding {
+//min-height: auto;
+  min-height: var(--sp6);
+}
+
+.site-header__inner {
+  background-color: #001122;
+}
+
+.site-branding {
+  background-image: linear-gradient(to right bottom, #03004c, #001b54, #002442, #002829, #002a19);
+}
+
+.mobile-nav-button__label {
+  color: $fg-color;
+  border-color: $link-color;
+}
+.mobile-nav-button__icon {
+  border-color: $link-color;
+}
+
+.primary-nav__menu-link {
+  color: $fg-color;
+}
+.mobile-nav-button__icon:before {
+  border-color: $link-color;
+}
+.mobile-nav-button__icon:after {
+  border-color: $link-color;
+}
+

@@ -1,0 +1,17 @@
+/*
+* Status report counters
+*/
+.system-status-report-counters .system-status-counter__title-count {
+  color: #cccccc;
+}
+
+/*
+* Status general info
+*/
+
+.system-status-general-info .system-status-general-info__items .system-status-general-info__item-title {
+  color: #cccccc;
+}
+.system-status-general-info .system-status-general-info__items .system-status-general-info__item-details {
+  color: #cccccc;
+}

@@ -1,0 +1,13 @@
+/**
+ * @file
+ * Extends styles of the file link.
+ */
+
+.file__size {
+  color: #ffffff1a;
+}
+
+.form-managed-file .file__size {
+  color: #cbcbcb;
+  font-style: italic;
+}

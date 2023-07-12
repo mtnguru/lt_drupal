@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Darcula theme.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function darcula_form_media_library_add_form_alter(array &$form, FormStateInterface $form_state) {
+  $form['#attached']['library'][] = 'darcula/media_library.theme';
+}

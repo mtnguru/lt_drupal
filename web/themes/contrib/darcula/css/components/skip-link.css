@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Skip link
+ *
+ * Allows keyboard users to quickly skip to the main content of the page.
+ */
+.skip-link {
+  color: #ccc;
+  background: #ffffff1a;
+}
+
+.skip-link:hover,
+.skip-link:active {
+  color: #ccc;
+  background-color: #ffffff1a;
+}

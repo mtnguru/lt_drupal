@@ -1,0 +1,31 @@
+/*
+** Vertical tabs
+*/
+
+.vertical-tabs .vertical-tabs__menu-item > a {
+  color: #fff;
+}
+.vertical-tabs .vertical-tabs__menu-item > a:hover,
+.vertical-tabs__panes .form-item--visibility-request-path-pages textarea {
+  color: #ccc;
+}
+.vertical-tabs .vertical-tabs__menu-item .vertical-tabs__menu-link-summary {
+  color: #999;
+}
+.vertical-tabs__items details .form-item__label,
+.vertical-tabs__items details fieldset > legend > span {
+  color: #ccc;
+}
+.vertical-tabs__items details .form-item__description {
+  color: #ccc;
+}
+.vertical-tabs .claro-details__wrapper--vertical-tabs-item .form-item label {
+  color: #fff;
+}
+.vertical-tabs__menu-item.is-selected .vertical-tabs__menu-link,
+.vertical-tabs__menu-link:hover::before {
+  background-color: #dedfe4;
+}
+.vertical-tabs__items {
+  background-color: #242424;
+}

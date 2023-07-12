@@ -1,0 +1,87 @@
+/**
+ * @file
+ * Collapsible details.
+ *
+ * @see collapse.js
+ */
+
+.claro-details {
+  color: #cccccc;
+  border-color: #dedfe4;
+  background-color: #ffffff1a;
+}
+
+.claro-details__summary {
+  color: #cccccc;
+  background-color: #ffffff0b;
+}
+
+.claro-details__summary::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3e%3cpath d='M5.21 1.314L3.79 2.723l5.302 5.353-5.303 5.354 1.422 1.408 6.697-6.762z' fill='%23cccccc'/%3e%3c/svg%3e");
+}
+.claro-details--package-listing > .claro-details__summary::before {
+  filter: invert(1);
+}
+
+.claro-details__summary--accordion,
+.claro-details__summary--accordion-item,
+.claro-details__summary--vertical-tabs-item {
+  background: #ffffff0b;
+}
+
+[open] .claro-details__summary--accordion,
+[open] .claro-details__summary--accordion-item,
+[open] .claro-details__summary--vertical-tabs-item {
+  color: #cc6e2f;
+}
+
+.claro-details__summary:hover::before,
+.claro-details__summary:hover:focus::before,
+.claro-details[open]>.claro-details__summary:focus::before,
+.claro-details[open]>.claro-details__summary--accordion::before,
+.claro-details[open]>.claro-details__summary--accordion-item::before,
+.claro-details[open]>.claro-details__summary--vertical-tabs-item::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3e%3cpath d='M5.21 1.314L3.79 2.723l5.302 5.353-5.303 5.354 1.422 1.408 6.697-6.762z' fill='%23cc6e2f'/%3e%3c/svg%3e");
+  filter: inherit;
+}
+.claro-details--package-listing > .claro-details__summary:hover::before,
+.claro-details--package-listing > .claro-details__summary:hover:focus::before {
+  filter: inherit;
+}
+.claro-details__summary:hover {
+  color: #cc6e2f;
+  background-color: #242424;
+}
+
+.claro-details__summary::after {
+  box-shadow: inset 0 0 0 3px #cc6e2f;
+}
+
+[open] > .claro-details__summary--accordion:not(:focus):not(:active)::after,
+[open] > .claro-details__summary--accordion-item:not(:focus):not(:active)::after,
+.collapse-processed[open] > .claro-details__summary--accordion .details-title:not(:focus)::after,
+.collapse-processed[open] > .claro-details__summary--accordion-item .details-title:not(:focus)::after,
+[open] > .claro-details__summary--vertical-tabs-item:not(:focus):not(:active)::after,
+.collapse-processed[open] > .claro-details__summary--vertical-tabs-item .details-title:not(:focus)::after {
+  border-color: #cc6e2f;
+}
+
+.claro-details[open] > .claro-details__summary:focus {
+  color: #cc6e2f;
+}
+
+.claro-details__description {
+  color: #cccccc;
+}
+
+.claro-details__description.is-disabled {
+  color: #cccccc;
+}
+
+.collapse-processed > .claro-details__summary .details-title::after {
+  border-color: #0c7d9d;
+}
+
+.claro-details__summary-summary {
+  color: #cccccc;
+}
