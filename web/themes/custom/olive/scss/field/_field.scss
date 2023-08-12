@@ -1,0 +1,20 @@
+
+.field:not(:last-child) {
+  margin-block-end: var(--sp-5);
+}
+
+.field {
+  background-color: $bg1-color;
+  padding: .5rem;
+  border-radius: 3px;
+}
+
+.field__label {
+  color: $title2-fg-color;
+}
+
+
+.field--type-text-long {
+  margin-top: 1rem;
+
+}
