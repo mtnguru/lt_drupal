@@ -38,7 +38,7 @@ $table-bd-color: #345;
 $table-odd-bg-color: #245;
 $table-even-bg-color: #36a;
 
-$stat-fg-color: #ccff33;
+$metric-fg-color: #ccff33;
 
 :root {
    /**
@@ -89,13 +89,13 @@ $stat-fg-color: #ccff33;
 .mqtt-clientId-bg {
   // MQTT message client
   .all           { background-color: #1a1a1a; }
-  .riolc         { background-color: #828; }
+  .rio1          { background-color: #22b; }
   .epiclc        { background-color: #529; }
   .arduino2      { background-color: #184; }
   .arduino3      { background-color: #052; }
   .arduino4      { background-color: #15f; }
   .arduino5      { background-color: #22b; }
-  .labtime       { background-color: #a41; }
+  .hmi           { background-color: #a41; }
   .administrator { background-color: #640; }
   .controller    { background-color: #820; }
   .drupal        { background-color: #a71; }
