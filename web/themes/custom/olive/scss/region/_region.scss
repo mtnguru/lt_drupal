@@ -1,0 +1,9 @@
+.region {
+//margin-block-end: var(--sp-75);
+}
+
+.region > * {
+  @media (min-width: $bp-md) {
+    margin-block-end: var(--sp1);
+  }
+}

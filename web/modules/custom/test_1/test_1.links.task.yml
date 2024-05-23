@@ -1,0 +1,17 @@
+entity.test_1.collection:
+  title: 'Test 1s'
+  route_name: entity.test_1.collection
+  base_route: system.admin_content
+  weight: 15
+entity.test_1.canonical:
+  title: View
+  route_name: entity.test_1.canonical
+  base_route: entity.test_1.canonical
+entity.test_1.edit_form:
+  title: Edit
+  route_name: entity.test_1.edit_form
+  base_route: entity.test_1.canonical
+entity.test_1.delete_form:
+  title: Delete
+  route_name: entity.test_1.delete_form
+  base_route: entity.test_1.canonical

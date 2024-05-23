@@ -1,0 +1,9 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/olive.css: {}
+  js:
+    js/checkbox.js: {}
+    js/navigation-utils.js: {}
+

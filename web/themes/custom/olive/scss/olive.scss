@@ -1,0 +1,24 @@
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * Do not name this file "au.scss". This file should be named
+ * THEMENAME.scss. If you used the drush command to generate this subtheme,
+ * it should be named for you.
+ *
+ * This application file (ntest.scss) is where all the partials are
+ * imported.
+ */
+
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@import "base/colors";
+@import "base/layout";
+@import "base/base";
+@import "layout/*";
+@import "components/*";
+@import "page/*";
+@import "field/*";
+@import "region/*";
+

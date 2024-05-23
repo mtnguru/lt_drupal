@@ -1,0 +1,71 @@
+body {
+  background-image: none;
+//color: $fg-color;
+  background-color: var(--color--gray-5);
+}
+.page-wrapper {
+  background-color: $bg-color;
+}
+
+strong {
+  color: $strong-fg-color;
+}
+
+a > strong {
+  color: $link-color;
+}
+
+h1, h2, h3 {
+  color: $title-fg-color;
+  margin-block: var(--sp1-5);
+}
+h4, h5, h6 {
+  color: $title1-fg-color;
+  margin-block: var(--sp1-4);
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+button {
+  color: $fg-color;
+}
+
+.text-content {
+  line-height: 1.5;
+//color: $fg-color;
+  a {
+    color: $link-color;
+  }
+  a:where(:not(.button)):hover {
+//  box-shadow: inset 0 -2em 0 0 $bg2-color;
+  }
+  p {
+    margin-block-start: var(--sp1);
+    margin-block-end: var(--sp1);
+  }
+}
+
+input[type=password],
+input[type=text] {
+  background-color: $input-bg-color;
+  border-color: $input-bd-color;
+  outline-color: $input-bd-color;
+}
+
+ul.tabs {
+  .tabs__link {
+    border-color: #428;
+    background-color: $bg3-color;
+    color: $link-color;
+  }
+  .is-active {
+    .tabs__link {
+      color: $fg-color;
+    }
+  }
+
+}

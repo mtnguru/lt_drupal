@@ -1,0 +1,23 @@
+.region--sidebar {
+  .block {
+    border-radius: 2px;
+    padding: var(--sp1);
+    background-color: $bg1-color;
+    h3 {
+      line-height: 1.1rem;
+      font-size: 1.1rem;
+      margin-block: var(--sp0-5);
+      margin-bottom: 0px;
+    }
+  }
+}
+.block__title {
+  color: $title2-fg-color;
+  font-size: 1.5rem;
+}
+
+.view-projects {
+  .views-row {
+    margin-left: 1rem;
+  }
+}

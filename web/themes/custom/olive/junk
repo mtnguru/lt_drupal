@@ -1,0 +1,78 @@
+<dl>
+    <dt>Action (ID) - 2nd field of topic</dt>
+    <dd>LabTime defines a set of actions that differentiate MQTT messages.  The action Id is the second
+    field of a topic
+    </dd>
+
+    <dt>Client (ID) - 3rd field of topic</dt>
+    <dd>A client is any computer program or device that is communicating through an MQTT broker.
+    </dd>
+
+    <dt>Edge</dt>
+    <dd>Edge devices are small computers that have sensors and can control equipment.
+    The device can be an arduino, PLC, Raspberry PI, PC, etc
+    </dd>
+
+    <dt>Instance (ID)</dt>
+    <dd>When executing a project, each time you start and stop that project you create an instance of it.
+    Instances have their own web page in Drupal and can have their own images, comments, discussions, etc.
+    </dd>
+
+    <dt>IOT - IIOT</dt>
+    <dd>Internet of Things - Industrial Internet of Thing<br>
+    The Internet of Things (IoT) refers to a network of physical objects embedded with sensors,
+    software, and other technologies to connect and exchange data with other devices
+    and systems over the internet.
+    </dd>
+
+    <dt>Metric (ID) - 4th field of topic</dt>
+    <dd>A metric is a measurement or setpoint.  It can be a temperature, switch position,
+    pressure, voltage, etc.  It can have multiple values and states.  A Metric ID must be unique
+    within a project.
+    </dd>
+
+    <dt>MQTT Broker</dt>
+    <dd>The MQTT broker is the program that manages the routing, security, and permissions of all
+    messages in a system implementing MQTT.
+    </dd>
+
+    <dt>Payload</dt>
+    <dd>A payload is the data portion of an MQTT message.  It can be anything - JSON, Binary, Image, HTML, etc.
+    The MQTT broker does not care what it is, it simply relays it on to subscribers.
+    </dd>
+
+    <dt>Project (ID) - 1st field of topic</dt>
+    <dd>For each experiment, or piece of equipment, you can create a project in LabTime.
+    For example if you have 5 reactors all running the same recipes,
+    you would create a project for each reactor.
+    </dd>
+
+    <dt>React</dt>
+    <dd>React is a JavaScript library for building user interfaces in web browsers,
+    particularly single-page applications,
+    by allowing developers to create reusable UI components and manage the state of these
+    components efficiently.
+    </dd>
+
+    <dt>Subscribe</dt>
+    <dd>MQTT uses a publish/subscribe methodology.  When a client is started it connects to
+    the MQTT broker and using topics, subscribes to the messages it wants.
+    </dd>
+
+    <dt>Telegraf (ID) - 5th field of topic</dt>
+    <dd>InfluxDB uses the telegraf loader to get data into the InfluxDB.
+    This is a very sophisticated loader that get data from files, the MQTT broker, other databases, etc.
+    The data format can be JSON, XML, CSV, or custom.  The Telegraf ID is used to trigger the
+    loading of an MQTT message into InfluxDB.
+    </dd>
+
+    <dt>Topic</dt>
+    <dd>Topics are complex 'addresses' that the broker uses to determine which clients
+    have subscribed to receive a message.
+    </dd>
+
+    <dt>User (ID) - 4th field of topic</dt>
+    <dd>The HMI clients are identified by a user id.
+    This id consists of the client Id, user name, and a random string to make it unique and User Id
+    </dd>
+</dl>

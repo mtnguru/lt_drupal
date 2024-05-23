@@ -1,0 +1,6 @@
+entity.test_1.add:
+  title: 'Add Test 1'
+  route_name: entity.test_1.add_page
+  weight: 15
+  appears_on:
+    - entity.test_1.collection

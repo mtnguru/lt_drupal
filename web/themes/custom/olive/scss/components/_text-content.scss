@@ -1,0 +1,17 @@
+
+.text-content {
+  blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: #da5;
+  }
+  blockquote::before,
+  blockquote::after {
+    content: '';
+    height: 100%;
+  }
+  strong {
+    color: #da5;
+  }
+}
